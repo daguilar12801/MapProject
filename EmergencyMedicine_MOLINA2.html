@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b16d1c05755349eedc199b184024e199 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b16d1c05755349eedc199b184024e199" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b16d1c05755349eedc199b184024e199 = L.map(
+                "map_b16d1c05755349eedc199b184024e199",
+                {
+                    center: [32.784884, -115.551463],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_37818c84bcf1a1bc5337c19450247c38 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_37818c84bcf1a1bc5337c19450247c38.addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+            var marker_747c0f812c1a7aab71dc4e5db7b5fa94 = L.marker(
+                [32.6792506331001, -115.488700311457],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_ab95d67d2a931713296d9f7627ac4cd2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6eb72a78503748cdbfcafb35945141c8 = $(`<div id="html_6eb72a78503748cdbfcafb35945141c8" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> BORREGO COMMUNITY - WEST MAIN ST<br>     <b>Address:</b> 801 E BIRCH ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> URI GUEFEN<br>     </div>`)[0];
+                popup_ab95d67d2a931713296d9f7627ac4cd2.setContent(html_6eb72a78503748cdbfcafb35945141c8);
+            
+        
+
+        marker_747c0f812c1a7aab71dc4e5db7b5fa94.bindPopup(popup_ab95d67d2a931713296d9f7627ac4cd2)
+        ;
+
+        
+    
+    
+            var marker_e04ffe9577e8158b31a4a1b5037e7cf6 = L.marker(
+                [32.767173718944, -115.561568663171],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_0a86b6577195df2d719e43393fb3891a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3f7533929720e7585670522c911b3661 = $(`<div id="html_3f7533929720e7585670522c911b3661" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> CAMARENA HEALTH<br>     <b>Address:</b> 852 DANENBERG DR<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JAMES WICHSER<br>     </div>`)[0];
+                popup_0a86b6577195df2d719e43393fb3891a.setContent(html_3f7533929720e7585670522c911b3661);
+            
+        
+
+        marker_e04ffe9577e8158b31a4a1b5037e7cf6.bindPopup(popup_0a86b6577195df2d719e43393fb3891a)
+        ;
+
+        
+    
+    
+            var marker_4c6d73a85cc81fbd1111e7d654cdd81b = L.marker(
+                [32.773176, -115.5270465],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_7a9b7ba3d5b7c6e13c634f29adeab191 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_53df86bc46523ab6ad88707f9c40874d = $(`<div id="html_53df86bc46523ab6ad88707f9c40874d" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> CAMARENA HEALTH<br>     <b>Address:</b> 852 E DANENBERG DR<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JAMES WICHSER<br>     </div>`)[0];
+                popup_7a9b7ba3d5b7c6e13c634f29adeab191.setContent(html_53df86bc46523ab6ad88707f9c40874d);
+            
+        
+
+        marker_4c6d73a85cc81fbd1111e7d654cdd81b.bindPopup(popup_7a9b7ba3d5b7c6e13c634f29adeab191)
+        ;
+
+        
+    
+    
+            var marker_ea95f25a80b31aa6ad9e58b9dae0caa9 = L.marker(
+                [32.9785797043014, -115.528580199245],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_0322f32a30304d1896a13e48f5160f04 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8e53a6467225acfea6c838fbfbbe71f7 = $(`<div id="html_8e53a6467225acfea6c838fbfbbe71f7" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> CAMARENA HEALTH<br>     <b>Address:</b> 900 MAIN ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JAMES WICHSER<br>     </div>`)[0];
+                popup_0322f32a30304d1896a13e48f5160f04.setContent(html_8e53a6467225acfea6c838fbfbbe71f7);
+            
+        
+
+        marker_ea95f25a80b31aa6ad9e58b9dae0caa9.bindPopup(popup_0322f32a30304d1896a13e48f5160f04)
+        ;
+
+        
+    
+    
+            var marker_812bda5d751ef7d4f1f34ba36db0efdf = L.marker(
+                [32.6792506331001, -115.488700311457],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_91520d4092f8e7c7a75d5427ad388f30 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5d08e8945e0f9e17c51b9f0418c6cb0d = $(`<div id="html_5d08e8945e0f9e17c51b9f0418c6cb0d" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> CLINICAS DE SALUD DEL PUE<br>     <b>Address:</b> 801 E BIRCH ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> URI GUEFEN<br>     </div>`)[0];
+                popup_91520d4092f8e7c7a75d5427ad388f30.setContent(html_5d08e8945e0f9e17c51b9f0418c6cb0d);
+            
+        
+
+        marker_812bda5d751ef7d4f1f34ba36db0efdf.bindPopup(popup_91520d4092f8e7c7a75d5427ad388f30)
+        ;
+
+        
+    
+    
+            var marker_d79192853c5fdbae753d21ef941dd94b = L.marker(
+                [32.767173718944, -115.561568663171],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_797706f05cea9099ee88b9da7c542c46 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0ed92b4c2254686db212555cc6d5786c = $(`<div id="html_0ed92b4c2254686db212555cc6d5786c" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> CLINICAS DE SALUD DEL PUEBLO INC<br>     <b>Address:</b> 852 DANENBERG DR<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JAMES WICHSER<br>     </div>`)[0];
+                popup_797706f05cea9099ee88b9da7c542c46.setContent(html_0ed92b4c2254686db212555cc6d5786c);
+            
+        
+
+        marker_d79192853c5fdbae753d21ef941dd94b.bindPopup(popup_797706f05cea9099ee88b9da7c542c46)
+        ;
+
+        
+    
+    
+            var marker_f87513daaa97609257019c0a80e6ac8f = L.marker(
+                [32.773176, -115.5270465],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_2dba27babbab8196d5599cd0b0012bc1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_16ce4568e753fcfd257ad5e8bd6316f0 = $(`<div id="html_16ce4568e753fcfd257ad5e8bd6316f0" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> CLINICAS DE SALUD DEL PUEBLO INC<br>     <b>Address:</b> 852 E DANENBERG DR<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JAMES WICHSER<br>     </div>`)[0];
+                popup_2dba27babbab8196d5599cd0b0012bc1.setContent(html_16ce4568e753fcfd257ad5e8bd6316f0);
+            
+        
+
+        marker_f87513daaa97609257019c0a80e6ac8f.bindPopup(popup_2dba27babbab8196d5599cd0b0012bc1)
+        ;
+
+        
+    
+    
+            var marker_7336d21257a91eca3e2d47490235bb37 = L.marker(
+                [32.9785797043014, -115.528580199245],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_fb0f2806a9c7830cbad2c2938edf9ebb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_27d705fa593412a1957663f8f3af7924 = $(`<div id="html_27d705fa593412a1957663f8f3af7924" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> CLINICAS DE SALUD DEL PUEBLO INC<br>     <b>Address:</b> 900 MAIN ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JAMES WICHSER<br>     </div>`)[0];
+                popup_fb0f2806a9c7830cbad2c2938edf9ebb.setContent(html_27d705fa593412a1957663f8f3af7924);
+            
+        
+
+        marker_7336d21257a91eca3e2d47490235bb37.bindPopup(popup_fb0f2806a9c7830cbad2c2938edf9ebb)
+        ;
+
+        
+    
+    
+            var marker_3e76037a52290f58938df5f89edad72a = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_e06eabb3e4a2792bf131acb8bc486271 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ba1b9705324a8036cd90082bcced08cf = $(`<div id="html_ba1b9705324a8036cd90082bcced08cf" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> COMMUNITY CARE IPA<br>     <b>Address:</b> 1415 ROSS AVE<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> HARRY ELSHIRE<br>     </div>`)[0];
+                popup_e06eabb3e4a2792bf131acb8bc486271.setContent(html_ba1b9705324a8036cd90082bcced08cf);
+            
+        
+
+        marker_3e76037a52290f58938df5f89edad72a.bindPopup(popup_e06eabb3e4a2792bf131acb8bc486271)
+        ;
+
+        
+    
+    
+            var marker_da61a5d5d4f72153000004ae5ed97faf = L.marker(
+                [32.7795011770731, -115.569727914594],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_c5b4a81c254c82f5d54707665f2606a9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_07546af296b30abc0d7b28999d6ac526 = $(`<div id="html_07546af296b30abc0d7b28999d6ac526" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> COMMUNITY CARE IPA<br>     <b>Address:</b> 1590 S IMPERIAL AVE<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> HARRY ELSHIRE<br>     </div>`)[0];
+                popup_c5b4a81c254c82f5d54707665f2606a9.setContent(html_07546af296b30abc0d7b28999d6ac526);
+            
+        
+
+        marker_da61a5d5d4f72153000004ae5ed97faf.bindPopup(popup_c5b4a81c254c82f5d54707665f2606a9)
+        ;
+
+        
+    
+    
+            var marker_a2f674369355aeba708563f5b889e6b0 = L.marker(
+                [32.7927912456001, -115.551903185123],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_686474bb0088fddfcb457162a6093fcb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_395b48b9ad703297c46c75f37e133a96 = $(`<div id="html_395b48b9ad703297c46c75f37e133a96" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> COMMUNITY CARE IPA<br>     <b>Address:</b> 385 W MAIN ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> HARRY ELSHIRE<br>     </div>`)[0];
+                popup_686474bb0088fddfcb457162a6093fcb.setContent(html_395b48b9ad703297c46c75f37e133a96);
+            
+        
+
+        marker_a2f674369355aeba708563f5b889e6b0.bindPopup(popup_686474bb0088fddfcb457162a6093fcb)
+        ;
+
+        
+    
+    
+            var marker_ac43f320e84f1b6a8c3b52f488310f59 = L.marker(
+                [32.6791652956986, -115.493031],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_a3cb9d2e8de8d92376f21a4ca76fddf2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_363d15772ecd0ab95ceff6328690dd6d = $(`<div id="html_363d15772ecd0ab95ceff6328690dd6d" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> COMMUNITY CARE IPA<br>     <b>Address:</b> 495 E BIRCH ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> HARRY ELSHIRE<br>     </div>`)[0];
+                popup_a3cb9d2e8de8d92376f21a4ca76fddf2.setContent(html_363d15772ecd0ab95ceff6328690dd6d);
+            
+        
+
+        marker_ac43f320e84f1b6a8c3b52f488310f59.bindPopup(popup_a3cb9d2e8de8d92376f21a4ca76fddf2)
+        ;
+
+        
+    
+    
+            var marker_a8cbd5d71a2e35c2972ff4c200fc15be = L.marker(
+                [32.767173718944, -115.561568663171],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_14cf973a5328ff1a05587a0476350aed = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2f2902d83cd3f090cc8eeb96d6837c44 = $(`<div id="html_2f2902d83cd3f090cc8eeb96d6837c44" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> COMMUNITY CARE IPA<br>     <b>Address:</b> 852 DANENBERG DR<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JAMES WICHSER<br>     </div>`)[0];
+                popup_14cf973a5328ff1a05587a0476350aed.setContent(html_2f2902d83cd3f090cc8eeb96d6837c44);
+            
+        
+
+        marker_a8cbd5d71a2e35c2972ff4c200fc15be.bindPopup(popup_14cf973a5328ff1a05587a0476350aed)
+        ;
+
+        
+    
+    
+            var marker_e44792b53b61bbf93562fd0372fe222a = L.marker(
+                [32.773176, -115.5270465],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_9bec06835ae3f5d2212266cc81cf01c9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_45881fd8a17b96884c161cd05268f480 = $(`<div id="html_45881fd8a17b96884c161cd05268f480" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> COMMUNITY CARE IPA<br>     <b>Address:</b> 852 E DANENBERG DR<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JAMES WICHSER<br>     </div>`)[0];
+                popup_9bec06835ae3f5d2212266cc81cf01c9.setContent(html_45881fd8a17b96884c161cd05268f480);
+            
+        
+
+        marker_e44792b53b61bbf93562fd0372fe222a.bindPopup(popup_9bec06835ae3f5d2212266cc81cf01c9)
+        ;
+
+        
+    
+    
+            var marker_03ee3e887d30aa8319347401067356d4 = L.marker(
+                [32.9785797043014, -115.528580199245],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_fdcf360da74fb32ab99cd728f82171ba = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a36848983a31b1a048eb307079807b43 = $(`<div id="html_a36848983a31b1a048eb307079807b43" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> COMMUNITY CARE IPA<br>     <b>Address:</b> 900 MAIN ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JAMES WICHSER<br>     </div>`)[0];
+                popup_fdcf360da74fb32ab99cd728f82171ba.setContent(html_a36848983a31b1a048eb307079807b43);
+            
+        
+
+        marker_03ee3e887d30aa8319347401067356d4.bindPopup(popup_fdcf360da74fb32ab99cd728f82171ba)
+        ;
+
+        
+    
+    
+            var marker_7ed00bc850def55a3928d03a08c8bf30 = L.marker(
+                [32.6791652956986, -115.493031],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_125f6f64ceb3c8d2fa4dffd1a103fd52 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a43bb8d88dddd0a7ecbdeaeb3f85db60 = $(`<div id="html_a43bb8d88dddd0a7ecbdeaeb3f85db60" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> EL CENTRO REGIONAL MEDICAL CENTER CALEXICO OUTPATIENT CENTER<br>     <b>Address:</b> 495 E BIRCH ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> HARRY ELSHIRE<br>     </div>`)[0];
+                popup_125f6f64ceb3c8d2fa4dffd1a103fd52.setContent(html_a43bb8d88dddd0a7ecbdeaeb3f85db60);
+            
+        
+
+        marker_7ed00bc850def55a3928d03a08c8bf30.bindPopup(popup_125f6f64ceb3c8d2fa4dffd1a103fd52)
+        ;
+
+        
+    
+    
+            var marker_a566eabf7923b497f8c476c223e4ef74 = L.marker(
+                [32.7927912456001, -115.551903185123],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_dd5cb2fde83df47b548a2c6125aaa293 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bc1ab23e85903b7061537cf0ea591809 = $(`<div id="html_bc1ab23e85903b7061537cf0ea591809" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> EL CENTRO REGIONAL MEDICAL CENTER OUTPATIENT CENTER EL CENT<br>     <b>Address:</b> 385 W MAIN ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> HARRY ELSHIRE<br>     </div>`)[0];
+                popup_dd5cb2fde83df47b548a2c6125aaa293.setContent(html_bc1ab23e85903b7061537cf0ea591809);
+            
+        
+
+        marker_a566eabf7923b497f8c476c223e4ef74.bindPopup(popup_dd5cb2fde83df47b548a2c6125aaa293)
+        ;
+
+        
+    
+    
+            var marker_33842939bc66fd150a6276b05adef998 = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_9a8e9bf891eac21857fe4606d605f7cc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7f8528d574a26bdaf6163744d9f91199 = $(`<div id="html_7f8528d574a26bdaf6163744d9f91199" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> HD ELSHIRE III MD PHD FACS INC<br>     <b>Address:</b> 1415 ROSS AVE<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> HARRY ELSHIRE<br>     </div>`)[0];
+                popup_9a8e9bf891eac21857fe4606d605f7cc.setContent(html_7f8528d574a26bdaf6163744d9f91199);
+            
+        
+
+        marker_33842939bc66fd150a6276b05adef998.bindPopup(popup_9a8e9bf891eac21857fe4606d605f7cc)
+        ;
+
+        
+    
+    
+            var marker_ff6beaef550cac39ca48c96acce7d0ef = L.marker(
+                [32.7795011770731, -115.569727914594],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_1188baf36a5e9770530730afec12d71f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4e1e246f822bc5ceb3702aa69e276591 = $(`<div id="html_4e1e246f822bc5ceb3702aa69e276591" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> HD ELSHIRE III MD PHD FACS INC<br>     <b>Address:</b> 1590 S IMPERIAL AVE<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> HARRY ELSHIRE<br>     </div>`)[0];
+                popup_1188baf36a5e9770530730afec12d71f.setContent(html_4e1e246f822bc5ceb3702aa69e276591);
+            
+        
+
+        marker_ff6beaef550cac39ca48c96acce7d0ef.bindPopup(popup_1188baf36a5e9770530730afec12d71f)
+        ;
+
+        
+    
+    
+            var marker_a132e9b041693420def6fd8d914257a5 = L.marker(
+                [32.7927912456001, -115.551903185123],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_3192774a2fd14d71d1381d804011e1df = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c14f5f957cd986365134b5aa8e2d2161 = $(`<div id="html_c14f5f957cd986365134b5aa8e2d2161" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> HD ELSHIRE III MD PHD FACS INC<br>     <b>Address:</b> 385 W MAIN ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> HARRY ELSHIRE<br>     </div>`)[0];
+                popup_3192774a2fd14d71d1381d804011e1df.setContent(html_c14f5f957cd986365134b5aa8e2d2161);
+            
+        
+
+        marker_a132e9b041693420def6fd8d914257a5.bindPopup(popup_3192774a2fd14d71d1381d804011e1df)
+        ;
+
+        
+    
+    
+            var marker_807a20d4e1120e4e3ffea1b6962b2510 = L.marker(
+                [32.6791652956986, -115.493031],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_0b2f4626693731aaa3294fcfa526ac29 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6db37a84c8716f91c113c0b3d24af218 = $(`<div id="html_6db37a84c8716f91c113c0b3d24af218" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> HD ELSHIRE III MD PHD FACS INC<br>     <b>Address:</b> 495 E BIRCH ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> HARRY ELSHIRE<br>     </div>`)[0];
+                popup_0b2f4626693731aaa3294fcfa526ac29.setContent(html_6db37a84c8716f91c113c0b3d24af218);
+            
+        
+
+        marker_807a20d4e1120e4e3ffea1b6962b2510.bindPopup(popup_0b2f4626693731aaa3294fcfa526ac29)
+        ;
+
+        
+    
+    
+            var marker_148731cf909e042fef0831a09122fc5c = L.marker(
+                [32.6792506331001, -115.488700311457],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_afa44b7e29828a3fb191115da4c6c0e9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_08fb0d7cb851e20917adf6f19f397308 = $(`<div id="html_08fb0d7cb851e20917adf6f19f397308" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> INNERCARE - BRAWLEY CLINIC<br>     <b>Address:</b> 801 E BIRCH ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> URI GUEFEN<br>     </div>`)[0];
+                popup_afa44b7e29828a3fb191115da4c6c0e9.setContent(html_08fb0d7cb851e20917adf6f19f397308);
+            
+        
+
+        marker_148731cf909e042fef0831a09122fc5c.bindPopup(popup_afa44b7e29828a3fb191115da4c6c0e9)
+        ;
+
+        
+    
+    
+            var marker_51953191d6ea093a965581c3d4f2ae87 = L.marker(
+                [32.767173718944, -115.561568663171],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_36ae4fb89c507dfb63d94cc5de7d4020 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a03900da177088e033cc643fdae01070 = $(`<div id="html_a03900da177088e033cc643fdae01070" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> INNERCARE - BRAWLEY CLINIC<br>     <b>Address:</b> 852 DANENBERG DR<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JAMES WICHSER<br>     </div>`)[0];
+                popup_36ae4fb89c507dfb63d94cc5de7d4020.setContent(html_a03900da177088e033cc643fdae01070);
+            
+        
+
+        marker_51953191d6ea093a965581c3d4f2ae87.bindPopup(popup_36ae4fb89c507dfb63d94cc5de7d4020)
+        ;
+
+        
+    
+    
+            var marker_dfb7e57a88b6ce678d9f6a78e020bfbc = L.marker(
+                [32.773176, -115.5270465],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_dfe04ee6ac8a5ddb6b53a5c2af387835 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c3c5649dd6a8eb4f92735df539c525f7 = $(`<div id="html_c3c5649dd6a8eb4f92735df539c525f7" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> INNERCARE - BRAWLEY CLINIC<br>     <b>Address:</b> 852 E DANENBERG DR<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JAMES WICHSER<br>     </div>`)[0];
+                popup_dfe04ee6ac8a5ddb6b53a5c2af387835.setContent(html_c3c5649dd6a8eb4f92735df539c525f7);
+            
+        
+
+        marker_dfb7e57a88b6ce678d9f6a78e020bfbc.bindPopup(popup_dfe04ee6ac8a5ddb6b53a5c2af387835)
+        ;
+
+        
+    
+    
+            var marker_9b4b4d27093561ce1f09b0d307306fdf = L.marker(
+                [32.9785797043014, -115.528580199245],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_575cda96c337709becc82244862c11b1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9854bc7d675bbeac6208ed9cd0845676 = $(`<div id="html_9854bc7d675bbeac6208ed9cd0845676" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> INNERCARE - BRAWLEY CLINIC<br>     <b>Address:</b> 900 MAIN ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JEFFERY ZIELINSKI, JAMES WICHSER<br>     </div>`)[0];
+                popup_575cda96c337709becc82244862c11b1.setContent(html_9854bc7d675bbeac6208ed9cd0845676);
+            
+        
+
+        marker_9b4b4d27093561ce1f09b0d307306fdf.bindPopup(popup_575cda96c337709becc82244862c11b1)
+        ;
+
+        
+    
+    
+            var marker_4407920e74093c43e71554cd9c073860 = L.marker(
+                [32.767173718944, -115.561568663171],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_227b1f57078d705a962e59ab20f50bb1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ae8766aff23063277b6071054662417e = $(`<div id="html_ae8766aff23063277b6071054662417e" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> INNERCARE - EL CENTRO CLINIC<br>     <b>Address:</b> 852 DANENBERG DR<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JAMES WICHSER<br>     </div>`)[0];
+                popup_227b1f57078d705a962e59ab20f50bb1.setContent(html_ae8766aff23063277b6071054662417e);
+            
+        
+
+        marker_4407920e74093c43e71554cd9c073860.bindPopup(popup_227b1f57078d705a962e59ab20f50bb1)
+        ;
+
+        
+    
+    
+            var marker_b25d7075ae68a6283897edc83dd011ce = L.marker(
+                [32.773176, -115.5270465],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_a34a69876e60d8da37c7a91467678a71 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6f9ca90bd41de558d25f4e23efd50437 = $(`<div id="html_6f9ca90bd41de558d25f4e23efd50437" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> INNERCARE - EL CENTRO CLINIC<br>     <b>Address:</b> 852 E DANENBERG DR<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JAMES WICHSER<br>     </div>`)[0];
+                popup_a34a69876e60d8da37c7a91467678a71.setContent(html_6f9ca90bd41de558d25f4e23efd50437);
+            
+        
+
+        marker_b25d7075ae68a6283897edc83dd011ce.bindPopup(popup_a34a69876e60d8da37c7a91467678a71)
+        ;
+
+        
+    
+    
+            var marker_a26c9e3f10383aa06ece879a1575e025 = L.marker(
+                [32.9785797043014, -115.528580199245],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_ff5a7fd444f09312770c02b1aafd84ba = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_255659083ed0735511a776a9ebef9375 = $(`<div id="html_255659083ed0735511a776a9ebef9375" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> INNERCARE - EL CENTRO CLINIC<br>     <b>Address:</b> 900 MAIN ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JAMES WICHSER<br>     </div>`)[0];
+                popup_ff5a7fd444f09312770c02b1aafd84ba.setContent(html_255659083ed0735511a776a9ebef9375);
+            
+        
+
+        marker_a26c9e3f10383aa06ece879a1575e025.bindPopup(popup_ff5a7fd444f09312770c02b1aafd84ba)
+        ;
+
+        
+    
+    
+            var marker_b31dab4ed801d4b29f49805a1acbd47e = L.marker(
+                [32.6792506331001, -115.488700311457],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_06454c536e2d6dfb4c5acd6a7e6f8b83 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ea5bad8e5fc098ffbd10d00520e6d93d = $(`<div id="html_ea5bad8e5fc098ffbd10d00520e6d93d" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> INTEGRATED HEALTH PARTNERS<br>     <b>Address:</b> 801 E BIRCH ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> URI GUEFEN<br>     </div>`)[0];
+                popup_06454c536e2d6dfb4c5acd6a7e6f8b83.setContent(html_ea5bad8e5fc098ffbd10d00520e6d93d);
+            
+        
+
+        marker_b31dab4ed801d4b29f49805a1acbd47e.bindPopup(popup_06454c536e2d6dfb4c5acd6a7e6f8b83)
+        ;
+
+        
+    
+    
+            var marker_517fae0bbe9b83b1a1e63a9133bc684b = L.marker(
+                [32.95809, -115.5537045],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_ce50fee188ad238487ca9ddf63f3da3b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cefdb7c9fd19f28a1bc20570b90fe76c = $(`<div id="html_cefdb7c9fd19f28a1bc20570b90fe76c" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> MICHAEL HAROLD BISHOP DO<br>     <b>Address:</b> 207 W LEGION RD<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> MICHAEL BISHOP<br>     </div>`)[0];
+                popup_ce50fee188ad238487ca9ddf63f3da3b.setContent(html_cefdb7c9fd19f28a1bc20570b90fe76c);
+            
+        
+
+        marker_517fae0bbe9b83b1a1e63a9133bc684b.bindPopup(popup_ce50fee188ad238487ca9ddf63f3da3b)
+        ;
+
+        
+    
+    
+            var marker_70dd2dc26c31bf16d69130b09f1dfebd = L.marker(
+                [32.6792506331001, -115.488700311457],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_2308e6790810bf0f78651e82016afaf0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_816c1a3630ed1acf09308964457087bc = $(`<div id="html_816c1a3630ed1acf09308964457087bc" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> PERLMAN CLINIC<br>     <b>Address:</b> 801 E BIRCH ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> URI GUEFEN<br>     </div>`)[0];
+                popup_2308e6790810bf0f78651e82016afaf0.setContent(html_816c1a3630ed1acf09308964457087bc);
+            
+        
+
+        marker_70dd2dc26c31bf16d69130b09f1dfebd.bindPopup(popup_2308e6790810bf0f78651e82016afaf0)
+        ;
+
+        
+    
+    
+            var marker_0af4d14c874797efee4d8088e0407190 = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_52850fe48ba4254c52aba01e6d4e9fb1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_276300100cc1e26b39d3e098cfdc0ca4 = $(`<div id="html_276300100cc1e26b39d3e098cfdc0ca4" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> UCSD DEPARTMENT OF FAMILY MEDICINE<br>     <b>Address:</b> 1415 ROSS AVE<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> MATTHEW MUELLER, AMANDA NASSER<br>     </div>`)[0];
+                popup_52850fe48ba4254c52aba01e6d4e9fb1.setContent(html_276300100cc1e26b39d3e098cfdc0ca4);
+            
+        
+
+        marker_0af4d14c874797efee4d8088e0407190.bindPopup(popup_52850fe48ba4254c52aba01e6d4e9fb1)
+        ;
+
+        
+    
+    
+            var marker_a3a59864db7ac573f10b2739262a6955 = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_36c2f42ed6fb84b3640c4ae3d92fa84f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_037dcd0f49c907e80b85d56f2b16b636 = $(`<div id="html_037dcd0f49c907e80b85d56f2b16b636" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> UCSD DEPT OF MEDICINE<br>     <b>Address:</b> 1415 ROSS AVE<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> DESIREE LEITHEM<br>     </div>`)[0];
+                popup_36c2f42ed6fb84b3640c4ae3d92fa84f.setContent(html_037dcd0f49c907e80b85d56f2b16b636);
+            
+        
+
+        marker_a3a59864db7ac573f10b2739262a6955.bindPopup(popup_36c2f42ed6fb84b3640c4ae3d92fa84f)
+        ;
+
+        
+    
+    
+            var marker_2ed865d6b68f8cd8501b7c66a2ad629e = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_92a7c4f95c5b56353508805fa44df5c1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_adc5ec5098879ce3cafa3a12e49a69e9 = $(`<div id="html_adc5ec5098879ce3cafa3a12e49a69e9" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> UCSD EMERGENCY PHYSICIANS<br>     <b>Address:</b> 1415 ROSS AVE<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> RAHUL NENE<br>     </div>`)[0];
+                popup_92a7c4f95c5b56353508805fa44df5c1.setContent(html_adc5ec5098879ce3cafa3a12e49a69e9);
+            
+        
+
+        marker_2ed865d6b68f8cd8501b7c66a2ad629e.bindPopup(popup_92a7c4f95c5b56353508805fa44df5c1)
+        ;
+
+        
+    
+    
+            var marker_d54b6f326863e76f44f9c9f7ab6acbd4 = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_798fe7fd5c1a156b1c40eef568efb9aa = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0ab9abf39e0fff08337f2d46cb239fc8 = $(`<div id="html_0ab9abf39e0fff08337f2d46cb239fc8" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> UCSD EMERGENCY PHYSICIANS MEDICAL GROUP<br>     <b>Address:</b> 1415 ROSS AVE<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> JESSE GUITTARD, CHRISTIAN DAMEFF, CAMERON SMYRES, MICHELLE ST. ROMAIN, ADAM NADOLSKI, NORMA ORDONEZ, LESLIE MUKAU, GUSTAVO SALCIDO, ALEXIS LENZ, AMIR AMINLARI, AMANDA NASSER, BENJAMIN SUPAT, JOSEPH HAYEK, NICOLAS KAHL, DANIEL ICHWAN, HIDEAKI TANAKA, CRISTINA HERNANDEZ, CHRISTANNE COFFEY, ANDREW KOZMINSKI, THOMAS PEDERSON, ELAINE YU, RICHARD CHILDERS, SUSANA FAVILA, STEPHANIE BENJAMIN, MICHAEL MACIAS, JEREMY HARDIN, JENNIFER FARAH, PATRICIA CASTANEDA, BENITO LASOFF, KARA ARREOLA, AVELINA PASCUA, SUSAN YEUNG, DESIREE RAMIREZ, RAHUL SAFFERMAN, SUKHDEEP BRAVO, KARI LEITHEM, JESSICA NENE<br>     </div>`)[0];
+                popup_798fe7fd5c1a156b1c40eef568efb9aa.setContent(html_0ab9abf39e0fff08337f2d46cb239fc8);
+            
+        
+
+        marker_d54b6f326863e76f44f9c9f7ab6acbd4.bindPopup(popup_798fe7fd5c1a156b1c40eef568efb9aa)
+        ;
+
+        
+    
+    
+            var marker_8ae387ab0ec5292c818fe852cacb22a3 = L.marker(
+                [32.9774845825496, -115.532992844019],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_10cb48c4333bbb6a4efd0d3ef1381c86 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e454967ec1c28778fc1dcc94d38de435 = $(`<div id="html_e454967ec1c28778fc1dcc94d38de435" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> UCSD EMERGENCY PHYSICIANS MEDICAL GROUP<br>     <b>Address:</b> 528 G ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> SUSANA FAVILA<br>     </div>`)[0];
+                popup_10cb48c4333bbb6a4efd0d3ef1381c86.setContent(html_e454967ec1c28778fc1dcc94d38de435);
+            
+        
+
+        marker_8ae387ab0ec5292c818fe852cacb22a3.bindPopup(popup_10cb48c4333bbb6a4efd0d3ef1381c86)
+        ;
+
+        
+    
+    
+            var marker_5900176ca0aedcc98d083a4461730d65 = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_6e79e905fa022e562bef916c6f367895 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8d216d05008c12ab0fc6509828677993 = $(`<div id="html_8d216d05008c12ab0fc6509828677993" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> UCSD MEDICAL GROUP<br>     <b>Address:</b> 1415 ROSS AVE<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> GABRIEL WARDI<br>     </div>`)[0];
+                popup_6e79e905fa022e562bef916c6f367895.setContent(html_8d216d05008c12ab0fc6509828677993);
+            
+        
+
+        marker_5900176ca0aedcc98d083a4461730d65.bindPopup(popup_6e79e905fa022e562bef916c6f367895)
+        ;
+
+        
+    
+    
+            var marker_1694534c2b65b474e5a956617041b3c0 = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_0950852dedbf48bb9dfa4c087e8a0d23 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2dafbfa79ec2ace21e736e9b8d391abb = $(`<div id="html_2dafbfa79ec2ace21e736e9b8d391abb" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> VO MEDICAL CENTER<br>     <b>Address:</b> 1415 ROSS AVE<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> HARRY ELSHIRE<br>     </div>`)[0];
+                popup_0950852dedbf48bb9dfa4c087e8a0d23.setContent(html_2dafbfa79ec2ace21e736e9b8d391abb);
+            
+        
+
+        marker_1694534c2b65b474e5a956617041b3c0.bindPopup(popup_0950852dedbf48bb9dfa4c087e8a0d23)
+        ;
+
+        
+    
+    
+            var marker_9dac1eb884e9616282611532f3d26a26 = L.marker(
+                [32.7795011770731, -115.569727914594],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_52750a2bd473ef6ced3436418ada8e05 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6b6247f129fb96e725c9cc8c41b423dc = $(`<div id="html_6b6247f129fb96e725c9cc8c41b423dc" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> VO MEDICAL CENTER<br>     <b>Address:</b> 1590 S IMPERIAL AVE<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> HARRY ELSHIRE<br>     </div>`)[0];
+                popup_52750a2bd473ef6ced3436418ada8e05.setContent(html_6b6247f129fb96e725c9cc8c41b423dc);
+            
+        
+
+        marker_9dac1eb884e9616282611532f3d26a26.bindPopup(popup_52750a2bd473ef6ced3436418ada8e05)
+        ;
+
+        
+    
+    
+            var marker_1389c2e88e9e41e8df43a1c7cbe487ff = L.marker(
+                [32.7927912456001, -115.551903185123],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_5327eaef893bc8032acb3ec0104a69ea = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_dc08ceeee456f40d6d6261870a0a9ee6 = $(`<div id="html_dc08ceeee456f40d6d6261870a0a9ee6" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> VO MEDICAL CENTER<br>     <b>Address:</b> 385 W MAIN ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> HARRY ELSHIRE<br>     </div>`)[0];
+                popup_5327eaef893bc8032acb3ec0104a69ea.setContent(html_dc08ceeee456f40d6d6261870a0a9ee6);
+            
+        
+
+        marker_1389c2e88e9e41e8df43a1c7cbe487ff.bindPopup(popup_5327eaef893bc8032acb3ec0104a69ea)
+        ;
+
+        
+    
+    
+            var marker_040d287571338a480ad78aeffb5cc2f1 = L.marker(
+                [32.6791652956986, -115.493031],
+                {}
+            ).addTo(map_b16d1c05755349eedc199b184024e199);
+        
+    
+        var popup_013a64c0afdb7324632e4372ea606fe2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_4f242aca345a931c1226d7839389990e = $(`<div id="html_4f242aca345a931c1226d7839389990e" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> VO MEDICAL CENTER<br>     <b>Address:</b> 495 E BIRCH ST<br>     <b>Classification:</b> Emergency Medicine<br>     <b>Physicians:</b> HARRY ELSHIRE<br>     </div>`)[0];
+                popup_013a64c0afdb7324632e4372ea606fe2.setContent(html_4f242aca345a931c1226d7839389990e);
+            
+        
+
+        marker_040d287571338a480ad78aeffb5cc2f1.bindPopup(popup_013a64c0afdb7324632e4372ea606fe2)
+        ;
+
+        
+    
+</script>
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0649a9c82619ea99cd92314cf3a95091 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0649a9c82619ea99cd92314cf3a95091" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0649a9c82619ea99cd92314cf3a95091 = L.map(
+                "map_0649a9c82619ea99cd92314cf3a95091",
+                {
+                    center: [32.784884, -115.551463],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_41a03da6f849a484ce15e490ef82899c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_41a03da6f849a484ce15e490ef82899c.addTo(map_0649a9c82619ea99cd92314cf3a95091);
+        
+    
+            var marker_70dbc196e8f936443fffae5bb26abe7a = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_0649a9c82619ea99cd92314cf3a95091);
+        
+    
+        var popup_d07a8e7ac34273d452f25e834e4e9183 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7e294950724f0250892cb7d62b745374 = $(`<div id="html_7e294950724f0250892cb7d62b745374" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> CRISTINA T HERNANDEZ<br>     <b>Physicians:</b> CRISTINA HERNANDEZ<br>     <b>Classifications:</b> Emergency Medicine     </div>`)[0];
+                popup_d07a8e7ac34273d452f25e834e4e9183.setContent(html_7e294950724f0250892cb7d62b745374);
+            
+        
+
+        marker_70dbc196e8f936443fffae5bb26abe7a.bindPopup(popup_d07a8e7ac34273d452f25e834e4e9183)
+        ;
+
+        
+    
+    
+            var marker_0b8d47753533400d146d7bb175ef7fdb = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_0649a9c82619ea99cd92314cf3a95091);
+        
+    
+        var popup_214adfa5eeefa82590e6ec46d9dab913 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fb0f909edd997a4907f12e4f24503627 = $(`<div id="html_fb0f909edd997a4907f12e4f24503627" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> DANIEL J ICHWAN<br>     <b>Physicians:</b> DANIEL ICHWAN<br>     <b>Classifications:</b> Emergency Medicine     </div>`)[0];
+                popup_214adfa5eeefa82590e6ec46d9dab913.setContent(html_fb0f909edd997a4907f12e4f24503627);
+            
+        
+
+        marker_0b8d47753533400d146d7bb175ef7fdb.bindPopup(popup_214adfa5eeefa82590e6ec46d9dab913)
+        ;
+
+        
+    
+    
+            var marker_5e1d6e02980a27490f800f7821421c79 = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_0649a9c82619ea99cd92314cf3a95091);
+        
+    
+        var popup_b361a95bed8978a31a34fc475f243a2d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a8b19d03dbace252671db3d437e6667c = $(`<div id="html_a8b19d03dbace252671db3d437e6667c" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> FRANCES E RUDOLPH<br>     <b>Physicians:</b> FRANCES RUDOLF<br>     <b>Classifications:</b> Emergency Medicine     </div>`)[0];
+                popup_b361a95bed8978a31a34fc475f243a2d.setContent(html_a8b19d03dbace252671db3d437e6667c);
+            
+        
+
+        marker_5e1d6e02980a27490f800f7821421c79.bindPopup(popup_b361a95bed8978a31a34fc475f243a2d)
+        ;
+
+        
+    
+    
+            var marker_f77615326270332cb10c6305eb34762c = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_0649a9c82619ea99cd92314cf3a95091);
+        
+    
+        var popup_4f59025c3c809c8f65cb9a672e8c2c45 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2616cbd52ceab7fe1702311412bb994f = $(`<div id="html_2616cbd52ceab7fe1702311412bb994f" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> HEIDI A HUTCHISON<br>     <b>Physicians:</b> HEIDI HUTCHISON<br>     <b>Classifications:</b> Emergency Medicine     </div>`)[0];
+                popup_4f59025c3c809c8f65cb9a672e8c2c45.setContent(html_2616cbd52ceab7fe1702311412bb994f);
+            
+        
+
+        marker_f77615326270332cb10c6305eb34762c.bindPopup(popup_4f59025c3c809c8f65cb9a672e8c2c45)
+        ;
+
+        
+    
+    
+            var marker_55618432c03ad8342a09c64d99fa3ffa = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_0649a9c82619ea99cd92314cf3a95091);
+        
+    
+        var popup_ec03773083d03b9e4907668533fe158e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f00e0691ef2a53d63d47b256ea7f1ef9 = $(`<div id="html_f00e0691ef2a53d63d47b256ea7f1ef9" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> HIDEAKI L TANAKA<br>     <b>Physicians:</b> Hideaki Tanaka<br>     <b>Classifications:</b> Emergency Medicine     </div>`)[0];
+                popup_ec03773083d03b9e4907668533fe158e.setContent(html_f00e0691ef2a53d63d47b256ea7f1ef9);
+            
+        
+
+        marker_55618432c03ad8342a09c64d99fa3ffa.bindPopup(popup_ec03773083d03b9e4907668533fe158e)
+        ;
+
+        
+    
+    
+            var marker_cb2be11f1110baf447a50c7863eec02f = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_0649a9c82619ea99cd92314cf3a95091);
+        
+    
+        var popup_b3a90a517915f3f44e35f42d3bbe1852 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_eac1af2e1ca701d2339361cb7fea94cf = $(`<div id="html_eac1af2e1ca701d2339361cb7fea94cf" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> JESSE A GUITTARD<br>     <b>Physicians:</b> Jesse Guittard<br>     <b>Classifications:</b> Emergency Medicine     </div>`)[0];
+                popup_b3a90a517915f3f44e35f42d3bbe1852.setContent(html_eac1af2e1ca701d2339361cb7fea94cf);
+            
+        
+
+        marker_cb2be11f1110baf447a50c7863eec02f.bindPopup(popup_b3a90a517915f3f44e35f42d3bbe1852)
+        ;
+
+        
+    
+    
+            var marker_2596a6168cb9dd2320e0aced16f64f3b = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_0649a9c82619ea99cd92314cf3a95091);
+        
+    
+        var popup_34c9729f9288cb956cbcc0d315032ea5 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_21fc42cfd6d93ee05aa41b633d8f193c = $(`<div id="html_21fc42cfd6d93ee05aa41b633d8f193c" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> JESSICA A BAGBY<br>     <b>Physicians:</b> Jessica Bagby<br>     <b>Classifications:</b> Emergency Medicine     </div>`)[0];
+                popup_34c9729f9288cb956cbcc0d315032ea5.setContent(html_21fc42cfd6d93ee05aa41b633d8f193c);
+            
+        
+
+        marker_2596a6168cb9dd2320e0aced16f64f3b.bindPopup(popup_34c9729f9288cb956cbcc0d315032ea5)
+        ;
+
+        
+    
+    
+            var marker_f90490036c2e62b115bd3bd4b7a27fcf = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_0649a9c82619ea99cd92314cf3a95091);
+        
+    
+        var popup_6c1c5ee321450745efca313f39dbc1c1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_482f71e02ed0fdef2b8fc183d0f58dac = $(`<div id="html_482f71e02ed0fdef2b8fc183d0f58dac" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> KATHERINE L STAATS<br>     <b>Physicians:</b> KATHERINE STAATS<br>     <b>Classifications:</b> Emergency Medicine     </div>`)[0];
+                popup_6c1c5ee321450745efca313f39dbc1c1.setContent(html_482f71e02ed0fdef2b8fc183d0f58dac);
+            
+        
+
+        marker_f90490036c2e62b115bd3bd4b7a27fcf.bindPopup(popup_6c1c5ee321450745efca313f39dbc1c1)
+        ;
+
+        
+    
+    
+            var marker_0145a065f87387cfb1184c5aa4aa4576 = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_0649a9c82619ea99cd92314cf3a95091);
+        
+    
+        var popup_76dc76d7f20253a0f32853e8b13419e8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c4b2ed52067324ffe56a885fb73acd90 = $(`<div id="html_c4b2ed52067324ffe56a885fb73acd90" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> KRISTEN B HORNBEAK<br>     <b>Physicians:</b> Kirsten Hornbeak<br>     <b>Classifications:</b> Emergency Medicine     </div>`)[0];
+                popup_76dc76d7f20253a0f32853e8b13419e8.setContent(html_c4b2ed52067324ffe56a885fb73acd90);
+            
+        
+
+        marker_0145a065f87387cfb1184c5aa4aa4576.bindPopup(popup_76dc76d7f20253a0f32853e8b13419e8)
+        ;
+
+        
+    
+    
+            var marker_550e5d601c745171805c40cc67ee9ab6 = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_0649a9c82619ea99cd92314cf3a95091);
+        
+    
+        var popup_4bf74aae9d2303fd69fabaa2eecd41d7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e96d978f96da352146fe1b44917c36d1 = $(`<div id="html_e96d978f96da352146fe1b44917c36d1" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> MATTHEW D MUELLER<br>     <b>Physicians:</b> MATTHEW MUELLER<br>     <b>Classifications:</b> Emergency Medicine     </div>`)[0];
+                popup_4bf74aae9d2303fd69fabaa2eecd41d7.setContent(html_e96d978f96da352146fe1b44917c36d1);
+            
+        
+
+        marker_550e5d601c745171805c40cc67ee9ab6.bindPopup(popup_4bf74aae9d2303fd69fabaa2eecd41d7)
+        ;
+
+        
+    
+    
+            var marker_bd16f5f8ff4289fcb3d422c5fdee4c5b = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_0649a9c82619ea99cd92314cf3a95091);
+        
+    
+        var popup_9b27bab8b10269f36ef899aaeac08730 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1558ad9ec608c87c74ec3b47b14ab357 = $(`<div id="html_1558ad9ec608c87c74ec3b47b14ab357" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> RAHUL V NENE<br>     <b>Physicians:</b> RAHUL NENE<br>     <b>Classifications:</b> Emergency Medicine     </div>`)[0];
+                popup_9b27bab8b10269f36ef899aaeac08730.setContent(html_1558ad9ec608c87c74ec3b47b14ab357);
+            
+        
+
+        marker_bd16f5f8ff4289fcb3d422c5fdee4c5b.bindPopup(popup_9b27bab8b10269f36ef899aaeac08730)
+        ;
+
+        
+    
+    
+            var marker_84f01e7158d67503dc02c61e93a54676 = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_0649a9c82619ea99cd92314cf3a95091);
+        
+    
+        var popup_1dcbb42142db31a9cf61d1f097adf995 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_180e06260ff594218a2349be99c5dade = $(`<div id="html_180e06260ff594218a2349be99c5dade" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> UCSD EMERG PHYSICIANS<br>     <b>Physicians:</b> ROBERT CURRAN, LESLIE MUKAU, Amanda Cobb, Joseph Hayek, CRISTINA HERNANDEZ, Elaine Yu, Han Gao, Carl Youngs, BENJAMIN SUPAT, BRENNA HOGUE, Cameron Smyres, Hideaki Tanaka, MATTHEW MUELLER, CHRISTIAN DAMEFF, Andrew Johnson, MICHELLE SAFFERMAN, AMIR AMINLARI, Jessica Bagby, Alexis Lenz, Jesse Guittard, Clifford Masom, Ariel Bowman, CHRISTANNE COFFEY, RAHUL NENE, Faith Quenzer, ANDREW LAFREE, Kirsten Hornbeak, Adam Nadolski, DANIEL LASOFF, KATHERINE STAATS, Richard Childers, HENRIK GALUST, Nicole Agostinelli, CASEY SMITH, DANIEL ICHWAN, Jennifer Farah, Nicholas Pokrajac, FRANCES RUDOLF<br>     <b>Classifications:</b> Emergency Medicine     </div>`)[0];
+                popup_1dcbb42142db31a9cf61d1f097adf995.setContent(html_180e06260ff594218a2349be99c5dade);
+            
+        
+
+        marker_84f01e7158d67503dc02c61e93a54676.bindPopup(popup_1dcbb42142db31a9cf61d1f097adf995)
+        ;
+
+        
+    
+    
+            var marker_bc2df59cc7911f8a914ba4cc2f1e8521 = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_0649a9c82619ea99cd92314cf3a95091);
+        
+    
+        var popup_b75682e9e48a68e53edca3b6e4e01d27 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d221c256d15ef2bda10e48a75437b867 = $(`<div id="html_d221c256d15ef2bda10e48a75437b867" style="width: 100.0%; height: 100.0%;">     <b>Facility Name:</b> UCSD MEDICAL GROUP<br>     <b>Physicians:</b> Christopher Amann, MATTHEW MUELLER, Ariel Bowman, HEIDI HUTCHISON, GABRIEL WARDI<br>     <b>Classifications:</b> Emergency Medicine     </div>`)[0];
+                popup_b75682e9e48a68e53edca3b6e4e01d27.setContent(html_d221c256d15ef2bda10e48a75437b867);
+            
+        
+
+        marker_bc2df59cc7911f8a914ba4cc2f1e8521.bindPopup(popup_b75682e9e48a68e53edca3b6e4e01d27)
+        ;
+
+        
+    
+</script>
+</html>

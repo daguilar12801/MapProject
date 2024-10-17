@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a4abd2cb6cd28824a1236b76ac431606 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a4abd2cb6cd28824a1236b76ac431606" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a4abd2cb6cd28824a1236b76ac431606 = L.map(
+                "map_a4abd2cb6cd28824a1236b76ac431606",
+                {
+                    center: [32.784884, -115.551463],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_30ba717dfd9162a27def10e1ed980066 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_30ba717dfd9162a27def10e1ed980066.addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+            var marker_a030c44e3be7f588a2c7ebe19f5c0579 = L.marker(
+                [32.9775893136074, -115.533789190144],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_812c9ecdba69e4ffd11b66e60248f5b1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6f42c315e1131cdeafcf5ad676355370 = $(`<div id="html_6f42c315e1131cdeafcf5ad676355370" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 125 S 5TH ST<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> LORENZO SUAREZ<br>     </div>`)[0];
+                popup_812c9ecdba69e4ffd11b66e60248f5b1.setContent(html_6f42c315e1131cdeafcf5ad676355370);
+            
+        
+
+        marker_a030c44e3be7f588a2c7ebe19f5c0579.bindPopup(popup_812c9ecdba69e4ffd11b66e60248f5b1)
+        ;
+
+        
+    
+    
+            var marker_44dce72aac4f49fb999c077ce47215ec = L.marker(
+                [32.7814494692429, -115.568541],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_3f6711b93acc2e5464bfc76cf8d14bcf = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f5b6fc009adb76e6a12bbfbaaf2e69d4 = $(`<div id="html_f5b6fc009adb76e6a12bbfbaaf2e69d4" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1415 ROSS AVE<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> TIEN VO, BRIAN TYSON, SUNNY RICHLEY, KARI KAJITANI, HOSSEIN EBNESHAHIDI, CARLOS VENTURA, RACHEL LEE<br>     </div>`)[0];
+                popup_3f6711b93acc2e5464bfc76cf8d14bcf.setContent(html_f5b6fc009adb76e6a12bbfbaaf2e69d4);
+            
+        
+
+        marker_44dce72aac4f49fb999c077ce47215ec.bindPopup(popup_3f6711b93acc2e5464bfc76cf8d14bcf)
+        ;
+
+        
+    
+    
+            var marker_424bacfe13662ad60b9f11653ddc13bb = L.marker(
+                [32.7791299114277, -115.570777823597],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_d9d36caa4bd8aa8bbd6fb4ce49f59a85 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_30b139d8c715d4db14e369eca6a23c61 = $(`<div id="html_30b139d8c715d4db14e369eca6a23c61" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1550 PEPPER DR<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> JOHN FRIEDLINE<br>     </div>`)[0];
+                popup_d9d36caa4bd8aa8bbd6fb4ce49f59a85.setContent(html_30b139d8c715d4db14e369eca6a23c61);
+            
+        
+
+        marker_424bacfe13662ad60b9f11653ddc13bb.bindPopup(popup_d9d36caa4bd8aa8bbd6fb4ce49f59a85)
+        ;
+
+        
+    
+    
+            var marker_d24037660b3840d87633d90a1f8f8e55 = L.marker(
+                [32.7795011770731, -115.569727914594],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_b15d571f239a22400991b57c000eb5d2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a7980e687e77d60f8ba3711f12e75a95 = $(`<div id="html_a7980e687e77d60f8ba3711f12e75a95" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1590 S IMPERIAL AVE<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> TIEN VO<br>     </div>`)[0];
+                popup_b15d571f239a22400991b57c000eb5d2.setContent(html_a7980e687e77d60f8ba3711f12e75a95);
+            
+        
+
+        marker_d24037660b3840d87633d90a1f8f8e55.bindPopup(popup_b15d571f239a22400991b57c000eb5d2)
+        ;
+
+        
+    
+    
+            var marker_5f8d740a2b9d7b50edcb8a9ebaf79232 = L.marker(
+                [32.7788291945583, -115.569711628022],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_f9b24e0bbfa34bc8ca37216d97fecfcf = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e5a14371ea5abb672975e5375152180d = $(`<div id="html_e5a14371ea5abb672975e5375152180d" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1600 S IMPERIAL AVE<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> BRIAN TYSON<br>     </div>`)[0];
+                popup_f9b24e0bbfa34bc8ca37216d97fecfcf.setContent(html_e5a14371ea5abb672975e5375152180d);
+            
+        
+
+        marker_5f8d740a2b9d7b50edcb8a9ebaf79232.bindPopup(popup_f9b24e0bbfa34bc8ca37216d97fecfcf)
+        ;
+
+        
+    
+    
+            var marker_0cebb2834e9a7c78221f47305c765865 = L.marker(
+                [32.7786006530671, -115.569524060621],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_4774c60ca1fb164dafc3f7374dc4e04d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5628b2ea1465a962a4d206841a37fe9f = $(`<div id="html_5628b2ea1465a962a4d206841a37fe9f" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 1665 S IMPERIAL AVE<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> UNNATI SAMPAT<br>     </div>`)[0];
+                popup_4774c60ca1fb164dafc3f7374dc4e04d.setContent(html_5628b2ea1465a962a4d206841a37fe9f);
+            
+        
+
+        marker_0cebb2834e9a7c78221f47305c765865.bindPopup(popup_4774c60ca1fb164dafc3f7374dc4e04d)
+        ;
+
+        
+    
+    
+            var marker_f2a4185c27719c67a47e06089c7b5c9d = L.marker(
+                [32.8125634679439, -115.570020202377],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_617932bfa8c8195f5ac6f3839c84d98b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5df0b237296e5f31345c0d3d2f75aba8 = $(`<div id="html_5df0b237296e5f31345c0d3d2f75aba8" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 2026 N IMPERIAL AVE<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> BRIAN TYSON<br>     </div>`)[0];
+                popup_617932bfa8c8195f5ac6f3839c84d98b.setContent(html_5df0b237296e5f31345c0d3d2f75aba8);
+            
+        
+
+        marker_f2a4185c27719c67a47e06089c7b5c9d.bindPopup(popup_617932bfa8c8195f5ac6f3839c84d98b)
+        ;
+
+        
+    
+    
+            var marker_f121199eb6c9fd6d60cd155ce80a84de = L.marker(
+                [32.7814151030379, -115.579293461756],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_84ef138b831b2d8105ad98b5ecffd0ac = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_70b5e4ae6b9c044bb1ad6707405cb4e2 = $(`<div id="html_70b5e4ae6b9c044bb1ad6707405cb4e2" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 2061 ROSS AVE<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> MARIO CEJA<br>     </div>`)[0];
+                popup_84ef138b831b2d8105ad98b5ecffd0ac.setContent(html_70b5e4ae6b9c044bb1ad6707405cb4e2);
+            
+        
+
+        marker_f121199eb6c9fd6d60cd155ce80a84de.bindPopup(popup_84ef138b831b2d8105ad98b5ecffd0ac)
+        ;
+
+        
+    
+    
+            var marker_d4d023196b74cce1b6215e0258008c91 = L.marker(
+                [32.6939194892669, -115.495038],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_3f451bfc9d0d6700d866069d7ab22186 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_cd1410d817e8194744518ace43db8908 = $(`<div id="html_cd1410d817e8194744518ace43db8908" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 222 E COLE BLVD<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> TIEN VO<br>     </div>`)[0];
+                popup_3f451bfc9d0d6700d866069d7ab22186.setContent(html_cd1410d817e8194744518ace43db8908);
+            
+        
+
+        marker_d4d023196b74cce1b6215e0258008c91.bindPopup(popup_3f451bfc9d0d6700d866069d7ab22186)
+        ;
+
+        
+    
+    
+            var marker_fd0c19f7cefab1030c1682488727a78e = L.marker(
+                [32.6940194868713, -115.5029355],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_2e6a3a93314890351776756086890e01 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c968e0d1c596aa7401fdc3814536b521 = $(`<div id="html_c968e0d1c596aa7401fdc3814536b521" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 223 W COLE BLVD<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> ISSADORA LARA, JOSE HERNANDEZ RIVERA<br>     </div>`)[0];
+                popup_2e6a3a93314890351776756086890e01.setContent(html_c968e0d1c596aa7401fdc3814536b521);
+            
+        
+
+        marker_fd0c19f7cefab1030c1682488727a78e.bindPopup(popup_2e6a3a93314890351776756086890e01)
+        ;
+
+        
+    
+    
+            var marker_d35514b6669d417799ab41c13e02aee0 = L.marker(
+                [32.6940145010096, -115.503705],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_6d39389c463643e419df68f15170241e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d2e26427616e475e8121b6cbf1289dbb = $(`<div id="html_d2e26427616e475e8121b6cbf1289dbb" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 251 W COLE BLVD<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> MARIO CEJA<br>     </div>`)[0];
+                popup_6d39389c463643e419df68f15170241e.setContent(html_d2e26427616e475e8121b6cbf1289dbb);
+            
+        
+
+        marker_d35514b6669d417799ab41c13e02aee0.bindPopup(popup_6d39389c463643e419df68f15170241e)
+        ;
+
+        
+    
+    
+            var marker_93f0a1e170708b3e62b9df0cd4d4f320 = L.marker(
+                [32.7927912456001, -115.551903185123],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_c3c29ed0a4a78f5812bc91ab1255b53c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7edf3e22436db001f125ade1510db6ef = $(`<div id="html_7edf3e22436db001f125ade1510db6ef" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 385 W MAIN ST<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> HOSSEIN EBNESHAHIDI<br>     </div>`)[0];
+                popup_c3c29ed0a4a78f5812bc91ab1255b53c.setContent(html_7edf3e22436db001f125ade1510db6ef);
+            
+        
+
+        marker_93f0a1e170708b3e62b9df0cd4d4f320.bindPopup(popup_c3c29ed0a4a78f5812bc91ab1255b53c)
+        ;
+
+        
+    
+    
+            var marker_f10df49cc6add0eb29c82c6366e70700 = L.marker(
+                [32.6689987368862, -115.492064937937],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_31fe39b6cc8ce9fd4a4ef4028eed353a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c837d14fd61c047abfc31bd8c11e0830 = $(`<div id="html_c837d14fd61c047abfc31bd8c11e0830" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 400 MARY AVE<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> BRIAN TYSON<br>     </div>`)[0];
+                popup_31fe39b6cc8ce9fd4a4ef4028eed353a.setContent(html_c837d14fd61c047abfc31bd8c11e0830);
+            
+        
+
+        marker_f10df49cc6add0eb29c82c6366e70700.bindPopup(popup_31fe39b6cc8ce9fd4a4ef4028eed353a)
+        ;
+
+        
+    
+    
+            var marker_af7d1c14f8e8b602160a334d91b32c34 = L.marker(
+                [32.6790879528236, -115.491482896698],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_ee019d5eba99c1f03797476481aae2c7 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6c9c5ce5f1e2d7a7455372ce2eb5b433 = $(`<div id="html_6c9c5ce5f1e2d7a7455372ce2eb5b433" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 450 E BIRCH ST<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> ISSADORA LARA<br>     </div>`)[0];
+                popup_ee019d5eba99c1f03797476481aae2c7.setContent(html_6c9c5ce5f1e2d7a7455372ce2eb5b433);
+            
+        
+
+        marker_af7d1c14f8e8b602160a334d91b32c34.bindPopup(popup_ee019d5eba99c1f03797476481aae2c7)
+        ;
+
+        
+    
+    
+            var marker_3a2aa9cd5396538fd90e08aefc27ffe2 = L.marker(
+                [32.679124850915, -115.491339775463],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_4616e8ebd3c4c723a1b2ddaa33ae0c7b = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_039f91c032b47956ec26c6ba9029a7e2 = $(`<div id="html_039f91c032b47956ec26c6ba9029a7e2" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 450 E BIRCH ST<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> ISSADORA LARA<br>     </div>`)[0];
+                popup_4616e8ebd3c4c723a1b2ddaa33ae0c7b.setContent(html_039f91c032b47956ec26c6ba9029a7e2);
+            
+        
+
+        marker_3a2aa9cd5396538fd90e08aefc27ffe2.bindPopup(popup_4616e8ebd3c4c723a1b2ddaa33ae0c7b)
+        ;
+
+        
+    
+    
+            var marker_12d2fc85d38df2006da5ef5e5255e8b3 = L.marker(
+                [32.6791652956986, -115.493031],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_c3ecbb85ec3a1e5bbed5c197e7c2ce7c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1ce358ffc163e77e6526cbc1dcc8eb65 = $(`<div id="html_1ce358ffc163e77e6526cbc1dcc8eb65" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 495 E BIRCH ST<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> HOSSEIN EBNESHAHIDI, JOSEFINA GUERRERO<br>     </div>`)[0];
+                popup_c3ecbb85ec3a1e5bbed5c197e7c2ce7c.setContent(html_1ce358ffc163e77e6526cbc1dcc8eb65);
+            
+        
+
+        marker_12d2fc85d38df2006da5ef5e5255e8b3.bindPopup(popup_c3ecbb85ec3a1e5bbed5c197e7c2ce7c)
+        ;
+
+        
+    
+    
+            var marker_07a277f8491a431c7fd3a1802baf05dc = L.marker(
+                [32.8116475320561, -115.381415658924],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_70e90467185c833e81f66689c9e8ed13 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_665a30fbabe3b12571b72daf75112314 = $(`<div id="html_665a30fbabe3b12571b72daf75112314" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 529 PINE AVE<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> VINCE SOUN<br>     </div>`)[0];
+                popup_70e90467185c833e81f66689c9e8ed13.setContent(html_665a30fbabe3b12571b72daf75112314);
+            
+        
+
+        marker_07a277f8491a431c7fd3a1802baf05dc.bindPopup(popup_70e90467185c833e81f66689c9e8ed13)
+        ;
+
+        
+    
+    
+            var marker_79f7cd27709442151266db1da16d8f10 = L.marker(
+                [32.976452435699, -115.552797309017],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_c0a2695fb185915b1259af48bb13ae89 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_01f0ca0f542b2e89388a47a46e8eb226 = $(`<div id="html_01f0ca0f542b2e89388a47a46e8eb226" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 605 W H ST<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> SUNNY RICHLEY<br>     </div>`)[0];
+                popup_c0a2695fb185915b1259af48bb13ae89.setContent(html_01f0ca0f542b2e89388a47a46e8eb226);
+            
+        
+
+        marker_79f7cd27709442151266db1da16d8f10.bindPopup(popup_c0a2695fb185915b1259af48bb13ae89)
+        ;
+
+        
+    
+    
+            var marker_71dc5860c02ef9daf92dcc2c1cf40b09 = L.marker(
+                [32.9774637043014, -115.531910219292],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_d79091f76ff85a6a01360580a4f12a88 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_648451af130428aa6c0ff07ae48355e1 = $(`<div id="html_648451af130428aa6c0ff07ae48355e1" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 608 G ST<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> UNNATI SAMPAT, HELEN PENSANTI<br>     </div>`)[0];
+                popup_d79091f76ff85a6a01360580a4f12a88.setContent(html_648451af130428aa6c0ff07ae48355e1);
+            
+        
+
+        marker_71dc5860c02ef9daf92dcc2c1cf40b09.bindPopup(popup_d79091f76ff85a6a01360580a4f12a88)
+        ;
+
+        
+    
+    
+            var marker_2d1420724617c5e1a1a7abd833e7c1d4 = L.marker(
+                [32.9599832956986, -115.554802776761],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_fbb8f0049c23ea682eb1558b5dd6a870 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8b5cff611606a4f0355c184cab69bde4 = $(`<div id="html_8b5cff611606a4f0355c184cab69bde4" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 751 W LEGION RD<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> SUNNY RICHLEY, ANOOSHIRVAN BOZORGMEHR, YONG TAN<br>     </div>`)[0];
+                popup_fbb8f0049c23ea682eb1558b5dd6a870.setContent(html_8b5cff611606a4f0355c184cab69bde4);
+            
+        
+
+        marker_2d1420724617c5e1a1a7abd833e7c1d4.bindPopup(popup_fbb8f0049c23ea682eb1558b5dd6a870)
+        ;
+
+        
+    
+    
+            var marker_5c22305eec3a0ac277c571b83a0dc58b = L.marker(
+                [32.6792506331001, -115.488700311457],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_2033cf16db2217b212b18c56b47f84fc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1a0eb61596a0b003808194a9ea5bd5dd = $(`<div id="html_1a0eb61596a0b003808194a9ea5bd5dd" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 801 E BIRCH ST<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> JOSE HERNANDEZ RIVERA<br>     </div>`)[0];
+                popup_2033cf16db2217b212b18c56b47f84fc.setContent(html_1a0eb61596a0b003808194a9ea5bd5dd);
+            
+        
+
+        marker_5c22305eec3a0ac277c571b83a0dc58b.bindPopup(popup_2033cf16db2217b212b18c56b47f84fc)
+        ;
+
+        
+    
+    
+            var marker_75c7b57190bdcc8bd784449fa8cc314c = L.marker(
+                [33.236235, -115.519088975503],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_849b88daa78c5703ef0e626f6852ad76 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5f1e37a612de48bb53a188dbfe9b0c4f = $(`<div id="html_5f1e37a612de48bb53a188dbfe9b0c4f" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 8027 HWY 111<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> JOSE HERNANDEZ RIVERA<br>     </div>`)[0];
+                popup_849b88daa78c5703ef0e626f6852ad76.setContent(html_5f1e37a612de48bb53a188dbfe9b0c4f);
+            
+        
+
+        marker_75c7b57190bdcc8bd784449fa8cc314c.bindPopup(popup_849b88daa78c5703ef0e626f6852ad76)
+        ;
+
+        
+    
+    
+            var marker_46a7fb6b827c83773480ca0fb590fec7 = L.marker(
+                [32.9785797043014, -115.528580199245],
+                {}
+            ).addTo(map_a4abd2cb6cd28824a1236b76ac431606);
+        
+    
+        var popup_7ceadb69c13f5bb1aac6ed33f7aadc0d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_75c8027a99807239c9ddcf1767b35ef8 = $(`<div id="html_75c8027a99807239c9ddcf1767b35ef8" style="width: 100.0%; height: 100.0%;">     <b>Address:</b> 900 MAIN ST<br>     <b>Classification:</b> Family Medicine<br>     <b>Physicians:</b> FRANCISCO ORDAZ CHAVEZ<br>     </div>`)[0];
+                popup_7ceadb69c13f5bb1aac6ed33f7aadc0d.setContent(html_75c8027a99807239c9ddcf1767b35ef8);
+            
+        
+
+        marker_46a7fb6b827c83773480ca0fb590fec7.bindPopup(popup_7ceadb69c13f5bb1aac6ed33f7aadc0d)
+        ;
+
+        
+    
+</script>
+</html>
